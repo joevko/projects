@@ -1,0 +1,16 @@
+"\d" : anyNumber
+"@[^\d]\w+.?\w+" : decorator
+"(\bNone\b|\bTrue\b|\bFalse\b)" : boolean
+"\bclass\b" : class
+"\bwhile\b" : while
+"\bdef\b" : function
+"\btry\b|\bexcept\b|\belse\b|\bfinally\b" : try
+"[a-zA-Z]\w*\s?=" : var
+"\bfor\s\b|\b\sin\s\b" : forLoop
+"\bimport\b|\bas\b" : import
+"(\".*?\"|\'.*?\')" : string
+"\bprint\b" : print
+"\bif\b" : if
+"\breturn\b" : return
+"\bbreak\b" : break
+"#.*(?:$|\n)" : comment

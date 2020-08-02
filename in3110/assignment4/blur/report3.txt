@@ -1,0 +1,3 @@
+The method blur_3 uses approximately 0.45 seconds to perform the wanted task
+on a fullsize picture. From what I understand this could get even quicker if we repeat
+the same task in the same sequence.

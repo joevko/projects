@@ -1,0 +1,2 @@
+The method blur_2 uses approximately 0.05 seconds to perform the wanted task
+on a fullsize picture.

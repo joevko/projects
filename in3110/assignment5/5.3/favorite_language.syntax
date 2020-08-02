@@ -1,0 +1,10 @@
+"\/\/.*(?:$|\n)" : comment
+"\bclass\b" : class
+"(\bpublic\b|\bprotected\b|\bprivate\b)" : accessModifier
+"(\bbyte\b|\bshort\b|\bint\b|\blong\b|\bfloat\b|\bdouble\b|\bboolean\b|\bchar\b|\bString\b)" : dataType
+"/^[1-9][0-9]*$/" : number
+"\bSystem.out.println\b" : print
+"(".*")" : string
+"\bfor\b" : forLoop
+"(?:^|)(if|else|else if)" : ifStmt
+"(\bdo\b|\bwhile\b)" : while

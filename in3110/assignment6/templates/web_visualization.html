@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Assignment 6</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pretty_css.css') }}">
+</head>
+
+<body>
+    <h1>Assignment 6</h1>
+    <section><a href="help">Help</a></section>
+
+    <img src={{url}} alt="my plot">
+    <section>
+        <p>
+            <h3>You selected:</h3>
+        </p>
+        <p>Features - {{first}} and {{second}}</p>
+        <p>Classifier - {{classifier}}</p>
+    </section>
+    <section>
+        <p>
+            <h3>Select new data:</h3>
+        </p>
+        <form method="POST" action="/">
+            <select name="classifier">
+                <option value="knn">K Neighbors</option>
+                <option value="qda">QDA</option>
+            </select>
+            <select value="{{first}}" name="first_feature">
+                <option value="pregnant">Pregnant</option>
+                <option value="glucose">Glucose</option>
+                <option value="pressure">Pressure</option>
+                <option value="triceps">Triceps</option>
+                <option value="insulin">Insulin</option>
+                <option value="mass">Mass</option>
+                <option value="pedigree">Pedigree</option>
+                <option value="age">Age</option>
+            </select>
+            <select value={{second}} name="second_feature">
+                <option value="pregnant">Pregnant</option>
+                <option value="glucose">Glucose</option>
+                <option value="pressure">Pressure</option>
+                <option value="triceps">Triceps</option>
+                <option value="insulin">Insulin</option>
+                <option value="mass">Mass</option>
+                <option value="pedigree">Pedigree</option>
+                <option value="age">Age</option>
+            </select>
+            <p><input type="submit" value="submit" /></p>
+        </form>
+    </section>
+</body>
+
+</html>

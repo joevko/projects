@@ -1,0 +1,17 @@
+anyNumber : 0;36
+comment : 0;90
+decorator : 0;35
+boolean : 0;36
+class : 0;35
+while : 0;34
+string : 0;36
+function : 0;34
+try : 0;34
+var :  0;32
+forLoop : 0;35
+import :  0;93
+print : 0;34
+if : 0;35
+return : 0;34
+break : 0;34
+else : 0;34
